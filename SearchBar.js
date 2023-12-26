@@ -13,7 +13,7 @@ const SearchBar = () => {
                 <Text style={{ fontSize: 13, color: 'gray', marginRight: 160, marginTop: 0, marginBottom: 0, fontSize: 13, fontFamily: 'OpenSans_Regular', marginLeft: 10 }}>Search Pocketstocks</Text>
                 <Image
                   source={require('./assets/images/filter.png')}
-                  style={{ width: 18, height: 18, marginLeft: 10, marginRight: 5, marginTop: 0 }}/>
+                  style={{ width: 19, height: 19, marginLeft: 10, marginRight: 5, marginTop: 0 }}/>
               </View>
             </View>
           </View>

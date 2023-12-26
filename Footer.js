@@ -7,26 +7,32 @@ const Footer = () => {
         <View>
           <Image
             source={require('./assets/images/home.png')}
-            style={{ width: 25, height: 25, marginLeft: 55 }}/>
-            <Text style={{ marginLeft: 50, color: 'gray', fontSize: 12, marginTop: 4 }}>Home</Text>
+            style={{ width: 25, height: 25, marginLeft: 38 }}/>
+            <Text style={{ marginLeft: 34, color: 'black', fontSize: 12, marginTop: 4 }}>Home</Text>
         </View>
         <View>
           <Image
             source={require('./assets/images/trending.png')}
-            style={{ width: 25, height: 25, marginLeft: 55 }}/>
-            <Text style={{ marginLeft: 42, color: 'gray', fontSize: 12, marginTop: 4 }}>Trending</Text>
+            style={{ width: 25, height: 25, marginLeft: 40 }}/>
+            <Text style={{ marginLeft: 25, color: 'gray', fontSize: 12, marginTop: 4 }}>Trending</Text>
         </View>
         <View>
           <Image
             source={require('./assets/images/watchlist.png')}
-            style={{ width: 25, height: 25, marginLeft: 50 }}/>
-            <Text style={{ marginLeft: 35, color: 'gray', fontSize: 12, marginTop: 4 }}>Watchlist</Text>
+            style={{ width: 25, height: 25, marginLeft: 38 }}/>
+            <Text style={{ marginLeft: 24, color: 'gray', fontSize: 12, marginTop: 4 }}>Watchlist</Text>
+          </View>
+          <View>
+          <Image
+            source={require('./assets/images/notifications.png')}
+            style={{ width: 25, height: 25, marginLeft: 38 }}/>
+            <Text style={{ marginLeft: 17, color: 'gray', fontSize: 12, marginTop: 4 }}>Notifications</Text>
           </View>
           <View>
         <Image
           source={require('./assets/images/profile_button.png')}
-          style={{ width: 30, height: 30, marginLeft: 45, marginTop: -2 }}/>
-          <Text style={{ marginLeft: 40, color: 'gray', fontSize: 12, marginTop: 2 }}>Profile</Text>
+          style={{ width: 30, height: 30, marginLeft: 20, marginTop: -4 }}/>
+          <Text style={{ marginLeft: 16, color: 'gray', fontSize: 12, marginTop: 3 }}>Profile</Text>
           </View>
         </View>
     );
